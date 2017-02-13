@@ -9,7 +9,7 @@ class HelloWorld extends React.Component {
 
 ReactDOM.render(
     <HelloWorld />,
-    document.querySelector('.root')
+    document.querySelector('#app')
 );
 
 export default HelloWorld;

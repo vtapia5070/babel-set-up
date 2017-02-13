@@ -54,7 +54,7 @@ module.exports = function(grunt) {
         // lint js
         jshint: {
             options: {
-                reporter: require('jshint-stylish')
+                reporter: require('jshint-stylish'),
             },
             dev: ['<%= project.dev %>/js/**/*.js', '<%= project.dev %>/js/scripts.js'],
         },
